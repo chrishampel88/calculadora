@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="body">
-    <div>Calculadora</div>
+    <div style="text-align: center;">
+        <h3>Calculadora</h3>
+    </div>
     <div class="borderCalcu">
 
         <div >
@@ -15,9 +17,9 @@
         </div>
         <div >
             <div class="row fondobtn" >
-                <div class="col m2 btn1" onclick='boton(1)'><h5 >1</h5></div>
-                <div class="col m2 btn1" onclick='boton(2)'><h5 >2</h5></div>
-                <div class="col m2 btn1" onclick='boton(3)'><h5 >3</h5></div>
+                <div class="col m2 btn1" onclick='boton(7)'><h5 >7</h5></div>
+                <div class="col m2 btn1" onclick='boton(8)'><h5 >8</h5></div>
+                <div class="col m2 btn1" onclick='boton(9)'><h5 >9</h5></div>
                 <div class="col m2 btn1" onclick='boton("+")'><h5 >+</h5></div>
             </div>
             <div class="row fondobtn">
@@ -27,16 +29,16 @@
                 <div class="col m2 btn1" onclick='boton("-")'><h5 >-</h5></div>
             </div>
             <div class="row fondobtn">
-                <div class="col m2 btn1" onclick='boton(7)'><h5 >7</h5></div>
-                <div class="col m2 btn1" onclick='boton(8)'><h5 >8</h5></div>
-                <div class="col m2 btn1" onclick='boton(9)'><h5 >9</h5></div>
+                <div class="col m2 btn1" onclick='boton(1)'><h5 >1</h5></div>
+                <div class="col m2 btn1" onclick='boton(2)'><h5 >2</h5></div>
+                <div class="col m2 btn1" onclick='boton(3)'><h5 >3</h5></div>
                 <div class="col m2 btn1" onclick='boton("*")'><h5 >x</h5></div>
             </div>
             <div class="row fondobtn">
                 <div  class="col m2 btn1" onclick='boton(0)'><h5 >0</h5></div>
+                <div  class="col m2 btn1" onclick="limpiar('limpiar')"><h5 >C</h5></div>
                 <div  class="col m2 btn1" onclick="calcular('enter')"><h5 >=</h5></div>
                 <div  class="col m2 btn1" onclick='boton("/")'><h5 >/</h5></div>
-                <div  class="col m2 btn1" onclick="limpiar('limpiar')"><h5 >C</h5></div>
             </div>
         </div>
     </div>
